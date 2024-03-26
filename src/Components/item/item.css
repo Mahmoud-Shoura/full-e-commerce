@@ -1,5 +1,6 @@
 .item {
     width: 250px;
+    transition: 0.6s;
 }
 
 .item p {
@@ -26,7 +27,6 @@
 
 .item:hover {
     transform: scale(1.05);
-    transition: 0.6s;
     cursor: pointer;
 }
 
